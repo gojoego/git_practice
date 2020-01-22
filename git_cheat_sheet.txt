@@ -1,0 +1,23 @@
+git init: initializes git repo in current directory
+
+git status: shows status of local git repo 
+
+git reset HEAD -- file_name: discards changes in working directory
+
+git add file_name: adds file to git staging area 
+
+git commit -m "commit message": commits all files in staging area to git with a commit message 
+
+git remote -v: view remote repositories connected to local repositories
+
+	NOTE: a remote repo would most likely be a git repo you are
+	pushing code to, you would see the URL with github.com in it if
+	there are any remote repos connected to the local repo 
+
+git push -u origin master: use to push code to git
+	
+	NOTE: "origin" is a default/generic name that Java auto-populates	 "master" is the branch, adding "-u" sets "origin" and "master" as	  default remote and branch to push to after you use "-u"
+
+git push: push all commits to default remote and branch (after "-u")
+
+git pull: pulls all changes from remote repo to local git repo 
