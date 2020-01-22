@@ -1,0 +1,6 @@
+1. create a github account
+2. create a repository 
+3. go to directory that you wish to push to github
+4. initialize git in that directory 
+5. add the remote repo to your local directory 
+6. push the code to github
